@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func select(){
-        number=0
+        number=number*10
+
         label.text=String(number)
     }
     
